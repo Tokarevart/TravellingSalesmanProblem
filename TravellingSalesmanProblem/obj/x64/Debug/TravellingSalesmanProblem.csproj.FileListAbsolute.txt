@@ -1,0 +1,8 @@
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\bin\x64\Debug\TravellingSalesmanProblem.exe
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\bin\x64\Debug\TravellingSalesmanProblem.pdb
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.csprojResolveAssemblyReference.cache
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.MainForm.resources
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.Properties.Resources.resources
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.csproj.GenerateResource.Cache
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.exe
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Debug\TravellingSalesmanProblem.pdb
