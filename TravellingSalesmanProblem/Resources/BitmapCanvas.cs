@@ -53,27 +53,32 @@ namespace TravellingSalesmanProblem.Resources
             Graphics.FillEllipse(fillBrush, rect);
             Graphics.DrawEllipse(borderPen, rect);
 
-            PictureBox.Refresh();
+            //PictureBox.Refresh();
         }
 
         public void DrawLine(Pen pen, Point p0, Point p1)
         {
             Graphics.DrawLine(pen, p0, p1);
 
-            PictureBox.Refresh();
+            //PictureBox.Refresh();
         }
 
         public void DrawString(string s, Font font, Brush brush, PointF point)
         {
             Graphics.DrawString(s, font, brush, point);
             
-            PictureBox.Refresh();
+            //PictureBox.Refresh();
         }
 
         public void Clear()
         {
             Graphics.Clear(ClearColor);
 
+            //PictureBox.Refresh();
+        }
+
+        public void Refresh()
+        {
             PictureBox.Refresh();
         }
     }

@@ -183,6 +183,7 @@ namespace TravellingSalesmanProblem
             nodesLocs.Add(graphPictureBox.PointToClient(Cursor.Position));
 
             UpdateGraph();
+            bmpCanvas.Refresh();
             AddNodeToLengthMatrix();
             UpdateDataGridView();
         }
@@ -202,6 +203,7 @@ namespace TravellingSalesmanProblem
             bmpCanvas = new BitmapCanvas(graphPictureBox, graphPictureBox.Width, graphPictureBox.Height);
 
             UpdateGraph();
+            bmpCanvas.Refresh();
         }
 
         private void setDefaultsButton_Click(object sender, EventArgs e)
@@ -220,6 +222,7 @@ namespace TravellingSalesmanProblem
 
             ClearNodesData();
             UpdateGraph();
+            bmpCanvas.Refresh();
             UpdateDataGridView();
 
             optimalPathLabel.Text = "None";
@@ -229,6 +232,7 @@ namespace TravellingSalesmanProblem
         private void clearButton_Click(object sender, EventArgs e)
         {
             ClearButtonClick();
+            bmpCanvas.Refresh();
         }
 
         private void calcButton_Click(object sender, EventArgs e)
@@ -260,6 +264,7 @@ namespace TravellingSalesmanProblem
             optimalPathLengthLabel.Text = tsp.GetBestTrailLength().ToString();
 
             UpdateGraph();
+            bmpCanvas.Refresh();
         }
 
         private void setNodesRandButton_Click(object sender, EventArgs e)
@@ -280,6 +285,7 @@ namespace TravellingSalesmanProblem
             }
 
             UpdateGraph();
+            bmpCanvas.Refresh();
             UpdateDataGridView();
         }
     }

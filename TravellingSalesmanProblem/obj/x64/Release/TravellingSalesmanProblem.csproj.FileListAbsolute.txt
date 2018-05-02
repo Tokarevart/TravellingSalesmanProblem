@@ -5,3 +5,4 @@ F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesma
 F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Release\TravellingSalesmanProblem.csproj.GenerateResource.Cache
 F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Release\TravellingSalesmanProblem.exe
 F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Release\TravellingSalesmanProblem.pdb
+F:\Programming\Программы\C#\TravellingSalesmanProblem\TravellingSalesmanProblem\obj\x64\Release\TravellingSalesmanProblem.csprojResolveAssemblyReference.cache
