@@ -25,6 +25,7 @@ namespace TravellingSalesmanProblem.Resources
             pictureBox.Image = Bitmap;
 
             Clear();
+            Refresh();
         }
 
         public BitmapCanvas(PictureBox pictureBox, int width, int height, Color clearColor)
@@ -37,6 +38,7 @@ namespace TravellingSalesmanProblem.Resources
             pictureBox.Image = Bitmap;
 
             Clear();
+            Refresh();
         }
 
         public void CreateBitmap(int width, int height)
@@ -52,29 +54,21 @@ namespace TravellingSalesmanProblem.Resources
         {
             Graphics.FillEllipse(fillBrush, rect);
             Graphics.DrawEllipse(borderPen, rect);
-
-            //PictureBox.Refresh();
         }
 
         public void DrawLine(Pen pen, Point p0, Point p1)
         {
             Graphics.DrawLine(pen, p0, p1);
-
-            //PictureBox.Refresh();
         }
 
         public void DrawString(string s, Font font, Brush brush, PointF point)
         {
             Graphics.DrawString(s, font, brush, point);
-            
-            //PictureBox.Refresh();
         }
 
         public void Clear()
         {
             Graphics.Clear(ClearColor);
-
-            //PictureBox.Refresh();
         }
 
         public void Refresh()
